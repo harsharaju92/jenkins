@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu
 RUN apt-get update
 RUN apt-get install cron -y
 RUN apt-get install vim -y
